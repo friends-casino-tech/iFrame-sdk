@@ -11,7 +11,7 @@ class IframeCommunication {
     init() {
         if (this.iframeRef) {
             window.addEventListener('message', (event) => {
-                this.handleMessage(event, this.iframeRef);
+                this.handleMessage(event);
             });
             if (this.iframeRef.contentWindow) {
                 this.sendMessage();
