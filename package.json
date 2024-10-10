@@ -1,0 +1,21 @@
+{
+  "name": "iframecommunication",
+  "version": "1.0.0",
+  "main": "iframeCommunication.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": ["iframe", "communication", "postMessage"],
+  "author": "Friends Casino",
+  "license": "ISC",
+  "description": "A library for communication between iframes.",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-loader": "^9.1.3",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {}
+}
