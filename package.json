@@ -1,7 +1,7 @@
 {
   "name": "iframecommunication",
   "version": "1.0.0",
-  "main": "iframeCommunication.js",
+  "main": "dist/iframeCommunication.min.js",
   "scripts": {
     "build": "webpack"
   },
