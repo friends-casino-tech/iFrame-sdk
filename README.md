@@ -75,6 +75,16 @@ The `iframeCommunication` library allows for easy communication between your mai
     </body>
     </html>
    ```
+   
+## Additional Info
+
+For any questions or support, please contact us at:
+
+- **Email:** tech@friends.casino
+- **Website:** [friends.casino](https://friends.casino)
+
+Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
+
 
    
 

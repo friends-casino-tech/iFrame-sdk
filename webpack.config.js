@@ -6,8 +6,11 @@ module.exports = {
     output: {
         filename: 'iframeCommunication.min.js',
         path: path.resolve(__dirname, 'dist'),
-        library: 'IframeCommunication', // Expose the class as a global variable
-        libraryTarget: 'window', // Attach it to the window object
+        library: 'IframeCommunication',
+        // libraryTarget: 'window', // Attach it to the window object
+        libraryTarget: 'umd', // Universal Module Definition
+        umdNamedDefine: true,
+        globalObject: 'this',
     },
     mode: 'production',
     optimization: {
