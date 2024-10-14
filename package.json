@@ -1,6 +1,6 @@
 {
   "name": "@friends-casino-tech/iframecommunication",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "main": "dist/iframeCommunication.min.js",
   "scripts": {
     "build": "webpack"
